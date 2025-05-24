@@ -6,7 +6,7 @@ public class wordy {
         String inputValue = scan.nextLine().toLowerCase();
         scan.close();
         int count = 0;
-        for(int i = 0, i < inputValue.length(); i++){
+        for(int i = 0; i < inputValue.length(); i++){
             count++;
             
         }
